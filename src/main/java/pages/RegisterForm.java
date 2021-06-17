@@ -1,11 +1,11 @@
 package pages;
 
-import core.BasePageCommands;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import utils.Browser;
 
-public class RegisterForm extends BasePageCommands {
+public class RegisterForm  {
 
     protected static final By FIRST_NAME_INPUT_FIELD = By.id("input-firstname");
     protected static final By LAST_NAME_INPUT_FIELD = By.id("input-lastname");

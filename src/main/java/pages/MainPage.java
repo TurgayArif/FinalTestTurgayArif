@@ -1,10 +1,9 @@
 package pages;
 
-import core.BasePageCommands;
 import org.openqa.selenium.By;
 import utils.Browser;
 
-public class MainPage extends BasePageCommands {
+public class MainPage  {
 
     private static String url = "http://shop.pragmatic.bg/";
 
